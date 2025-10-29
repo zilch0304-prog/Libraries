@@ -81,7 +81,7 @@ php artisan serve
 
 ### 🖼 Screenshot Placeholder
 
-![System Screenshot](screenshots/Screenshot-2025-10-29-223538.png)
+![System Screenshot](123.png)
 
 
 ### 💻 Example Code Snippet
