@@ -1,49 +1,50 @@
-
 # 📚 Library Management System
 
-## 📖 Overview
-The **Library Management System** is a web‑based project developed as part of the Midterm Examination.  
-It allows **Admins** to manage books and categories, and **Users** to browse and rent books efficiently.
+## 📖 Project Description / Overview
+The **Library Management System** is a web-based system created for my **Midterm Examination**.  
+It allows the **Admin** to manage book categories and books, while **Users** can browse and rent books.  
+This system modernizes the traditional library process by providing an easy-to-use platform for borrowing and managing books.
 
 ---
 
 ## 🎯 Objectives
-- Apply CRUD operations in a real‑world project  
-- Implement Admin & User roles  
-- Allow book rental functionality  
-- Organize books by category  
-- Practice web development and database concepts  
+- Develop a functional CRUD-based system  
+- Implement login and role-based access (Admin & User)  
+- Allow users to browse and rent books online  
+- Practice system development and database management skills  
+- Improve understanding of full-stack web development  
 
 ---
 
-## ✨ Features
+## ✨ Features / Functionality
 
-### 👨‍💼 Admin
-- Add / Update / Delete books  
-- Create & manage categories  
+### 👨‍💼 Admin Features
+- Login to admin account  
+- Add, edit, delete book categories  
+- Add, edit, delete books  
 - Manage book availability  
-- Monitor rental records  
+- View and manage user rental activities  
 
-### 👤 User
-- Register / Login  
-- View categories and books  
+### 👤 User Features
+- Register and login  
+- View available categories and books  
 - Rent books  
-- View personal rental history  
+- View rental records  
 
 ---
 
-## 🛠 Installation Guide
+## 🛠️ Installation Instructions
 
 ### ✅ Requirements
-- PHP / Laravel *(if Laravel is used)*  
+- PHP / Laravel *(if Laravel was used)*  
 - MySQL Database  
 - Composer *(if Laravel)*  
 - XAMPP / WAMP / Laragon *(local server)*  
 
-### 📌 Setup
+### 📌 Steps
 ```bash
-git clone <repo‑url>
-cd library‑management‑system
+git clone <repository-link>
+cd library-management-system
 composer install
 php artisan serve
 ```
@@ -52,33 +53,38 @@ php artisan serve
 
 ## ▶️ Usage
 
-### Admin Workflow
-1. Login  
-2. Add categories  
-3. Add books  
-4. Manage book rentals  
+### 🔐 Login Steps
 
-### User Workflow
-1. Register / Login  
-2. Browse categories  
-3. Rent books  
-4. View rentals  
+**Admin Login**
+1. Go to login page  
+2. Enter admin email & password  
+3. Access admin dashboard  
 
----
+**User Login**
+1. Register for a user account  
+2. Login with your credentials  
+3. Browse books and categories  
 
-## 📂 Folder Structure
-```
-/project
- ┣ app/
- ┣ public/
- ┣ resources/
- ┣ routes/
- ┗ README.md
-```
+### 📚 System Workflow
+
+| Admin Workflow | User Workflow |
+|----------------|---------------|
+| Login | Register / Login |
+| Add categories | View categories |
+| Add books | Browse books |
+| Manage rentals | Rent books |
+| Track availability | View rental history |
 
 ---
 
-## 💻 Sample Code Snippet
+## 📸 Screenshots / Code Snippet
+
+### 🖼 Screenshot Placeholder
+```
+![System Screenshot](screenshots/Screenshot 2025-10-29 223538.png)
+```
+
+### 💻 Example Code Snippet
 ```php
 public function rentBook(Request $request, $id) {
     $book = Book::findOrFail($id);
@@ -91,13 +97,60 @@ public function rentBook(Request $request, $id) {
 
 ---
 
-## 👨‍💻 Contributors
+## 👥 Contributors
 | Name | Role |
 |------|------|
-| Your Name | Developer |
-| Partner (if any) | Contributor |
+| **Aaron Jay Licudine** | Developer |
+| **Janvic** | Collaborator |
 
 ---
 
-## 🪪 License
-This project is for **academic and educational purposes only**.
+
+## 📄 License
+This project is developed for our project in ITPC 115 and is intended for academic and educational purposes only.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
