@@ -43,7 +43,7 @@ This system modernizes the traditional library process by providing an easy-to-u
 
 ### 📌 Steps
 ```bash
-git clone <repository-link>
+git clone <https://github.com/zilch0304-prog/Libraries.git>
 cd library-management-system
 composer install
 php artisan serve
