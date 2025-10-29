@@ -80,9 +80,9 @@ php artisan serve
 ## 📸 Screenshots / Code Snippet
 
 ### 🖼 Screenshot Placeholder
-```
-![System Screenshot](screenshots/Screenshot 2025-10-29 223538.png)
-```
+
+![System Screenshot](screenshots/Screenshot-2025-10-29-223538.png)
+
 
 ### 💻 Example Code Snippet
 ```php
